@@ -414,7 +414,7 @@ int main (void)
 	//ADC温度传感器通道测试
 	Test_ADC_Temperature();
 
-	initLCDM();
+	initLCDM(); //初始化液晶
 	memset( LCM_DDRAM, 0x00, 1600 );    //清显示缓冲区
 	LCD_Fulldisplay();		//液晶全部显示
 	LCD_on();
