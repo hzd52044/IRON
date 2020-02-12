@@ -416,10 +416,10 @@ int main (void)
 
 	initLCDM();
 	memset( LCM_DDRAM, 0x00, 1600 );    //清显示缓冲区
-	LCD_Fulldisplay();
+	LCD_Fulldisplay();		//液晶全部显示
 	LCD_on();
 
-	Display.Number=0xff;
+	Display.Number=0xff;		//设置默认显示页面
 	
 	current_val_pointer=&disptemp_val;  
 	//hextohex_flag = true;
