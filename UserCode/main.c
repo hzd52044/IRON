@@ -13,6 +13,8 @@ unsigned char Run_Display_Process;
 unsigned char Run_Key_Process;
 unsigned char Run_ADC_Process;
 
+//GIT 远程实验
+
 BTIM_InitTypeDef adjustment_para;	//参数调节变量
 
 void BTIMER_DEMO_OUT_GPIO_init(void)//输出GPIO初始化
