@@ -14,6 +14,7 @@ unsigned char Run_Key_Process;
 unsigned char Run_ADC_Process;
 
 //GIT 远程实验
+//在家测试合并问题
 
 BTIM_InitTypeDef adjustment_para;	//参数调节变量
 
